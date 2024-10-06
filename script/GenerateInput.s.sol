@@ -16,8 +16,8 @@ contract GenerateInput is Script {
     function run() public {
         types[0] = "address";
         types[1] = "uint";
-        whitelist[0] = "0x6CA6d1e2D5347Bfab1d91e883F1915560e09129D";
-        whitelist[1] = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
+        whitelist[0] = "0x0FD33a662BAC5286129BdbD8Eb23c26075cC51CB";
+        whitelist[1] = "0x50420Ad35e96cDb0fD2770341c72497b3518d2C5";
         whitelist[2] = "0x2ea3970Ed82D5b30be821FAAD4a731D35964F7dd";
         whitelist[3] = "0xf6dBa02C01AF48Cf926579F77C9f874Ca640D91D";
         count = whitelist.length;
